@@ -14,8 +14,9 @@ essentials:
     #      #######################################################################################################
 
     - camera_streams:
-        - url: "rtsp://192.168.123.230/rtsph2641080p"
+        - url: "rtsp://username:password@192.168.1.251/rtsph2641080p"
           force_coordinates: [0, 0, 1920, 1080]
+          enableaudio: True
     #     - url: "file:///usr/local/bin/rpisurv/demo/resources/Big_Buck_Bunny_Trailer_fast_480p30.m4v"
     #       force_coordinates: [100, 100, 700, 500]
     #       showontop: True
